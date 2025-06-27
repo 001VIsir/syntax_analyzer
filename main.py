@@ -67,7 +67,7 @@ class Grammar:
         self.non_terminals = {self.E, self.E_PRIME, self.T, self.T_PRIME, self.F}
         self.terminals = {self.NUM, self.PLUS, self.MINUS, self.TIMES, self.DIV, self.LPAREN, self.RPAREN, self.END, self.EPSILON}
         
-        # 原始文法产生式
+        # 原始文法产生式1
         self.original_productions = [
             Production(self.E, [self.E, self.PLUS, self.T]),
             Production(self.E, [self.E, self.MINUS, self.T]),
