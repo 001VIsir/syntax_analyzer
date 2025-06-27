@@ -37,6 +37,7 @@ def main():
             parser.parse(expr)
         elif choice == '4':
             run_simple_test()
+
         elif choice == '0':
             print("\n程序已退出")
             sys.exit(0)
